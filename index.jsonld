@@ -1,0 +1,56 @@
+{
+"@context":
+"https://www.w3.org/ns/activitystreams",
+"id":
+"https://staticpub.mauve.moe/index.json",
+"type":
+"OrderedCollection",
+"totalItems": 1,
+"orderedItems": [
+    {
+        "id": "https://staticpub.mauve.moe/helloworld/activity.jsonld",
+        "type": "Create",
+        "actor": "https://staticpub.mauve.moe/about.jsonld",
+        "published": "2023-06-29T17:29:45Z",
+        "to": [
+            "https://www.w3.org/ns/activitystreams#Public"
+        ],
+        "cc": [
+            "https://staticpub.mauve.moe/users/mauve/followers"
+        ],
+        "object": {
+            "id": "https://staticpub.mauve.moe/helloworld",
+            "type": "Note",
+            "summary": null,
+            "published": "2023-06-29T17:29:45Z",
+            "url": "https://staticpub.mauve.moe/@mauve/110628686121776061",
+            "attributedTo": "https://staticpub.mauve.moe/about.jsonld",
+            "to": [
+                "https://www.w3.org/ns/activitystreams#Public"
+            ],
+            "cc": [],
+            "sensitive": false,
+            "atomUri": "https://staticpub.mauve.moe/helloworld",
+            "inReplyToAtomUri": null,
+            "conversation": "tag:staticpub.mauve.moe,2023-06-29:objectId=294618:objectType=Conversation",
+            "content": "Hello World!",
+            "contentMap": {
+                "en": "Hello World!"
+            },
+            "attachment": [],
+            "tag": [],
+            "replies": {
+                "id": "https://staticpub.mauve.moe/helloworld/replies",
+                "type": "Collection",
+                "first": {
+                    "type": "CollectionPage",
+                    "next": "https://staticpub.mauve.moe/helloworld/replies?only_other_accounts=true&page=true",
+                    "partOf": "https://staticpub.mauve.moe/helloworld/replies",
+                    "items": []
+                }
+            }
+        }
+    }
+]
+
+}

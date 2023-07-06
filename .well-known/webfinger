@@ -1,0 +1,12 @@
+{  
+  "subject": "acct:mauve@staticpub.mauve.moe",
+  "aliases": [
+  ],
+  "links": [
+    {
+      "rel": "self",
+      "type": "application/activity+json",
+      "href": "https://staticpub.mauve.moe/about.jsonld"
+    }
+  ]
+}
