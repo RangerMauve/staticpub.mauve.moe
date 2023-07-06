@@ -28,7 +28,7 @@ jobs:
       - name: Compile website into HTML
         run: npx agregore-markdown-site-generator
       - name: Publish to Distributed Press
-        uses: hyphacoop/actions-distributed-press@bittorrent
+        uses: hyphacoop/actions-distributed-press@v1.2.0
         with:
           publish_dir: ./
           dp_url: https://press.mauve.moe
