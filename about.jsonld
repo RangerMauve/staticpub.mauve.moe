@@ -16,6 +16,6 @@
     "@context": "https://w3id.org/security/v1",
     "@type": "Key",
     "id": "https://staticpub.mauve.moe/about#main-key",
-    "owner": "https://staticpub.mauve.moe/about",
+    "owner": "https://staticpub.mauve.moe/about"
   }
 }
