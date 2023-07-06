@@ -27,7 +27,7 @@ jobs:
           node-version: '18'
 
       - name: Publish to Distributed Press
-        uses: hyphacoop/actions-distributed-press@v1.2.0
+        uses: hyphacoop/actions-distributed-press@1.2.0
         with:
           publish_dir: ./
           dp_url: https://press.mauve.moe
