@@ -25,8 +25,7 @@ jobs:
       - uses: actions/setup-node@v2-beta
         with:
           node-version: '18'
-      - name: Compile website into HTML
-        run: npx agregore-markdown-site-generator
+
       - name: Publish to Distributed Press
         uses: hyphacoop/actions-distributed-press@v1.2.0
         with:
