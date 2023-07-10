@@ -1,0 +1,12 @@
+{
+"@context":
+"https://www.w3.org/ns/activitystreams",
+"id":
+"https://staticpub.mauve.moe/index.json",
+"type":
+"OrderedCollection",
+"totalItems": 1,
+"orderedItems": [
+     "https://staticpub.mauve.moe/helloworld.jsonld"
+]
+}

@@ -1,0 +1,36 @@
+{
+"@context": "https://www.w3.org/ns/activitystreams",
+"id": "/helloworld.jsonld",
+"type": "Create",
+"actor": "/about.jsonld",
+"published": "2023-06-29T17:29:45Z",
+"to": [
+    "https://www.w3.org/ns/activitystreams#Public"
+],
+"cc": [
+    "/followers.jsonld"
+],
+"object": {
+    "id": "/helloworld.jsonld#object",
+    "type": "Note",
+    "summary": null,
+    "published": "2023-06-29T17:29:45Z",
+    "url": "https://staticpub.mauve.moe/helloworld",
+    "attributedTo": "/about.jsonld",
+    "to": [
+        "https://www.w3.org/ns/activitystreams#Public"
+    ],
+    "cc": [],
+    "sensitive": false,
+    "atomUri": "https://staticpub.mauve.moe/helloworld",
+    "inReplyToAtomUri": null,
+    "conversation": "tag:staticpub.mauve.moe,2023-06-29:objectId=294618:objectType=Conversation",
+    "content": "Hello World!",
+    "contentMap": {
+        "en": "Hello World!"
+    },
+    "attachment": [],
+    "tag": [],
+    "replies":  "https://staticpub.mauve.moe/helloworld-replies.json-ld"
+}
+}
