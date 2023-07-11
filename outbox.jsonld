@@ -7,6 +7,19 @@
 "OrderedCollection",
 "totalItems": 1,
 "orderedItems": [
-     "https://staticpub.mauve.moe/helloworld.jsonld"
+	{
+		"@context": "https://www.w3.org/ns/activitystreams",
+		"id": "/outbox.jsonld#orderedItems.0",
+		"type": "Create",
+		"actor": "/about.jsonld",
+		"published": "2023-06-29T17:29:45Z",
+		"to": [
+			"https://www.w3.org/ns/activitystreams#Public"
+		],
+		"cc": [
+			"/followers.jsonld"
+		],
+		"object": "/helloworld.jsonld"
+	}
 ]
 }
