@@ -1,7 +1,7 @@
 {
   "@context": ["https://www.w3.org/ns/activitystreams", { "@language": "en- CA" }],
   "type": "Person",
-  "id": "https://staticpub.mauve.moe/about.jsonld",
+  "id": "//staticpub.mauve.moe/about.jsonld",
   "outbox": "./outbox.jsonld",
   "inbox": "https://staticpub.mauve.moe/inbox",
   "following": "./following.jsonld",
