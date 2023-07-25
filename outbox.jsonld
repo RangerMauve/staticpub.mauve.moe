@@ -1,21 +1,21 @@
 {
 "@context": "https://www.w3.org/ns/activitystreams",
-"id": "//staticpub.mauve.moe/index.json",
+"id": "https://staticpub.mauve.moe/index.json",
 "type": "OrderedCollection",
 "totalItems": 1,
 "orderedItems": [
 	{
 		"@context": "https://www.w3.org/ns/activitystreams",
 		"type": "Create",
-		"actor": "//staticpub.mauve.moe/about.jsonld",
+		"actor": "https://staticpub.mauve.moe/about.jsonld",
 		"published": "2023-06-29T17:29:45Z",
 		"to": [
 			"https://www.w3.org/ns/activitystreams#Public"
 		],
 		"cc": [
-			"//staticpub.mauve.moe/followers.jsonld"
+			"https://staticpub.mauve.moe/followers.jsonld"
 		],
-		"object": "//staticpub.mauve.moe/helloworld.jsonld"
+		"object": "https://staticpub.mauve.moe/helloworld.jsonld"
 	}
 ]
 }
