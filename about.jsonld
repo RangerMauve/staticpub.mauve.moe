@@ -2,15 +2,15 @@
   "@context": ["https://www.w3.org/ns/activitystreams", { "@language": "en- CA" }],
   "type": "Person",
   "id": "https://staticpub.mauve.moe/about.jsonld",
-  "outbox": "./outbox.jsonld",
+  "outbox": "https://staticpub.mauve.moe/outbox.jsonld",
   "inbox": "https://staticpub.mauve.moe/inbox",
-  "following": "./following.jsonld",
-  "followers": "./followers.jsonld",
+  "following": "https://staticpub.mauve.moe/following.jsonld",
+  "followers": "https://staticpub.mauve.moe/followers.jsonld",
   "preferredUsername": "mauve",
   "name": "Mauve 👁️",
   "summary": "This is an example static site profile",
   "icon": [
-    "./profile.png"
+    "https://staticpub.mauve.moe/profile.png"
   ],
   "publicKey": {
     "@context": "https://w3id.org/security/v1",
