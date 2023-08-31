@@ -3,7 +3,7 @@
   "type": "Person",
   "id": "https://staticpub.mauve.moe/about.jsonld",
   "outbox": "https://staticpub.mauve.moe/outbox.jsonld",
-  "inbox": "https://staticpub.mauve.moe/inbox",
+  "inbox": "https://social.dp.chanterelle.xyz/v1/@mauve@staticpub.mauve.moe/inbox",
   "following": "https://staticpub.mauve.moe/following.jsonld",
   "followers": "https://staticpub.mauve.moe/followers.jsonld",
   "preferredUsername": "mauve",
