@@ -16,6 +16,7 @@
     "@context": "https://w3id.org/security/v1",
     "@type": "Key",
     "id": "https://staticpub.mauve.moe/about.jsonld#main-key",
-    "owner": "https://staticpub.mauve.moe/about.jsonld"
+    "owner": "https://staticpub.mauve.moe/about.jsonld",
+    "publicKeyPem": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAlgoFEtw/mPIGzFiCOdGp\n89yMX0hSTJwlTnpTBTmS+cAktHorVwy3RrKMWzBSf/1Y5mhLyp+tYr9SlKtb934l\nVRd2ZJynsaAr6XxO1Kboxnd5cqAMTXLYmJ72AFUb2yA9Ea9gvQ+8qqUNAjZjDkln\nxykdtFHn9D4iTcCMKYjbwLASmpvsZTvymxd8foJ3e+0hO0i7pTNoZ9He9JXKWUa5\n47YHFrbnxE7WalqHZsrjhtborB6Rr0Ll2Llq26Zw5bgiJ3P+S0Lzkry0De3vtYHx\nqCDIGpZFMCBw+kNc14IkBntGysd27EbHTi4vU36J5YggUAhF1Yu1S0xwsx5Ko5F+\nJxtBVOgzUorQfX3LRnLVbMuiuygHmB/yflyWfHhqr/HGyg5S54oCMRsE8d8K7PXX\nl9XikzF5IO/O+CIrQW33EVsAgyV8XcZ7xOwgJVgNwfg/o5W6v8Mf5GkLG5CpCIXR\nD/uFCRqyxDTveJWpxGbv2HJyx2n73aCe59lQ/DRrT0qCS+8714m5zcKETwNkpRp9\n862X9R+LoyiLypKM2owyb2mkai3cOJbr8Qv7UB6CKYiZPR9IYQa6RBZyF+bouL1I\nwK1095XBXseAslMbGNydrpa14/94bY3pin7pxVlCF3pvKTGJWoyyYQ2MJ61UPpha\nZ1rIv8Mv6dZLbITGRvem998CAwEAAQ==\n-----END PUBLIC KEY-----\n"
   }
 }
