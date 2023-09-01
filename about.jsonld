@@ -9,9 +9,12 @@
   "preferredUsername": "mauve",
   "name": "Mauve 👁️",
   "summary": "This is an example static site profile",
-  "icon": [
-    "https://staticpub.mauve.moe/profile.png"
-  ],
+  "icon": [{
+    "type": "Image",
+    "mediaType": "image/png",
+    "name": "Distributed Press logo",
+    "url": "https://staticpub.mauve.moe/profile.png"
+  }],
   "publicKey": {
     "@context": "https://w3id.org/security/v1",
     "@type": "Key",
