@@ -8,7 +8,7 @@
   "followers": "https://staticpub.mauve.moe/followers.jsonld",
   "preferredUsername": "mauve",
   "name": "Mauve 👁️",
-  "summary": "This is an example static site profile",
+  "summary": "This is an example static site profile. You can find the source code at https://github.com/RangerMauve/staticpub.mauve.moe/",
   "icon": [{
     "type": "Image",
     "mediaType": "image/png",
