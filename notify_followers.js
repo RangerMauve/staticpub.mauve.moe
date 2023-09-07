@@ -1,8 +1,8 @@
 import { readFile } from 'node:fs/promises'
 
 const domain = 'staticpub.mauve.moe'
-const username = "mauve"
-const post = 'helloworld.jsonld'
+const username = 'mauve'
+const post = 'newpost.jsonld'
 const actor = 'about.jsonld'
 const outbox = `https://social.dp.chanterelle.xyz/v1/@${username}@${domain}/outbox`
 
