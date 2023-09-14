@@ -4,9 +4,15 @@
   ],
   "links": [
     {
+      "rel": "http://webfinger.net/rel/profile-page",
+      "type": "text/html",
+      "href": "https://staticpub.mauve.moe/about.html"
+    },
+    {
       "rel": "self",
       "type": "application/activity+json",
       "href": "https://staticpub.mauve.moe/about.jsonld"
     }
   ]
 }
+
