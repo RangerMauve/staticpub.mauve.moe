@@ -2,19 +2,19 @@ import { fetch } from 'http-signed-fetch'
 
 import { readFile } from 'node:fs/promises'
 
-const domain = 'staticpub.mauve.moe'
-const username = 'mauve'
-const publicKeyId = `https://${domain}/about.jsonld#main-key`
+const actor = 'about.jsonld'
+const actorData = JSON.parse(await readFile(actor, 'utf8'))
 
-const url = `https://social.dp.chanterelle.xyz/v1/@${username}@${domain}/inbox`
+const domain = new URL(actorData.id).host
+const username = actorData.preferredUsername
+const publicKeyId = actorData.publicKey.id
 
 const keypair = JSON.parse(await readFile('keypair.json', 'utf8'))
 
-const post = 'newpost.jsonld'
-const actor = 'about.jsonld'
+const url = `https://social.dp.chanterelle.xyz/v1/@${username}@${domain}/inbox`
 
+const post = 'newpost.jsonld'
 const postContent = JSON.parse(await readFile(post, 'utf8'))
-const actorData = JSON.parse(await readFile(actor, 'utf8'))
 
 const response = await fetch(url, {
   keypair,
@@ -37,14 +37,11 @@ if (!response.ok) {
   throw new Error(await response.text())
 }
 
+console.log('Response OK')
 console.log(await response.json())
 
 function makeURL (path) {
   return `https://${domain}/${path}`
-}
-
-function makeActor () {
-  return makeURL(actor)
 }
 
 function makeActivity (id, object) {
@@ -52,7 +49,7 @@ function makeActivity (id, object) {
     '@context': 'https://www.w3.org/ns/activitystreams',
     type: 'Create',
     id,
-    actor: makeActor(),
+    actor: actorData.id,
     published: new Date().toUTCString(),
     to: [
       'https://www.w3.org/ns/activitystreams#Public'
