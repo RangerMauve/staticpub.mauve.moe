@@ -11,7 +11,7 @@ const publicKeyId = actorData.publicKey.id
 
 const keypair = JSON.parse(await readFile('keypair.json', 'utf8'))
 
-const url = `https://social.dp.chanterelle.xyz/v1/@${username}@${domain}/inbox`
+const url = `https://social.distributed.press/v1/@${username}@${domain}/inbox`
 
 const post = 'newpost.jsonld'
 const postContent = JSON.parse(await readFile(post, 'utf8'))
