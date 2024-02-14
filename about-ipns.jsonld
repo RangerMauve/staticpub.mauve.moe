@@ -1,17 +1,17 @@
 {
   "@context": ["https://www.w3.org/ns/activitystreams", { "@language": "en- CA" }],
   "type": "Person",
-  "id": "https://staticpub.mauve.moe/about.html",
+  "id": "ipns://staticpub.mauve.moe/about-ipns.jsonld",
   "url": [{
     "type": "Link",
     "rel": "alternate",
     "mediaType": "application/ld+json; profile=\"https://www.w3.org/ns/activitystreams\"",
-    "href": "ipns://staticpub.mauve.moe/about-ipns.jsonld"
+    "href": "https://staticpub.mauve.moe/about.jsonld"
   }],
-  "outbox": "https://staticpub.mauve.moe/outbox.jsonld",
+  "outbox": "ipns://staticpub.mauve.moe/outbox-ipns.jsonld",
   "inbox": "https://social.distributed.press/v1/@mauve@staticpub.mauve.moe/inbox",
-  "following": "https://staticpub.mauve.moe/following.jsonld",
-  "followers": "https://staticpub.mauve.moe/followers.jsonld",
+  "following": "ipns://staticpub.mauve.moe/following-ipns.jsonld",
+  "followers": "ipns://staticpub.mauve.moe/followers-ipns.jsonld",
   "preferredUsername": "mauve",
   "name": "Mauve 👁️",
   "summary": "This is an example static site profile. You can find the source code at https://github.com/RangerMauve/staticpub.mauve.moe/",
@@ -19,13 +19,13 @@
     "type": "Image",
     "mediaType": "image/png",
     "name": "Distributed Press logo",
-    "url": "https://staticpub.mauve.moe/profile.png"
+    "url": "ipns://staticpub.mauve.moe/profile.png"
   }],
   "publicKey": {
     "@context": "https://w3id.org/security/v1",
     "@type": "Key",
-    "id": "https://staticpub.mauve.moe/about.jsonld#main-key",
-    "owner": "https://staticpub.mauve.moe/about.jsonld",
+    "id": "ipns://staticpub.mauve.moe/about-ipns.jsonld#main-key",
+    "owner": "ipns://staticpub.mauve.moe/about-ipns.jsonld",
     "publicKeyPem": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAtInquswGLPNgl0t0wVej\ntMSGo/Z9Hi2TxbE+aZ+zO8vcmBWASHzmSSe+Ch2/ZzH3be0H4I9cTpRCDf5Fezr/\nmvqOaXPp3UyXbaf9x8c/JD9R/1DrUuAqAvG2B3kI9fa2juuc1pN0Uv9bp6YqDU+b\njSAnGzanK1zn5Dosh2ubK92ojE3f+dTg1ApH99hQewh1BImSbMYgHBBiperoJNJK\nyUZOHfr3q7PKpcQMoXikV9bShqO15lHzW6aTS0eqR5RJBUTDEVZfR69oBX8tMy1d\noW53Ip0KDQ4jpngM+PYqkUFBIgmOmWkHkkfR/lVYKGErfaLTUfwZRT6JWrMSyz0i\nPBrcGm/G6gG5omSYtBy+UNOTFimX7LG2LK8Ra8C7GgQeXJRzU3jONia64M/h3lRP\n8UkwyEtt3tXWh7yAaXE3fOix/SxEmWrfvsl3An98afghEay3vKEhOulXIoLFctUp\nMTjhMHAHwza8ALmMcngO/vXWxWe1Pzo9UKEYeDnGj1BHPr8Dp01WWOAfr6y/teoJ\n3HSh6z+tl3UqDwroC0RyVj2QarsQnj0vl0PfhNm5F3zBJbw5QX4+fGTkpLbNqQ8k\n6yCEJaV2FBOLE2p3/MB1s5WhcSrZ4u4nSapBPcYMa+/Ers18Q9wUoyUsnn/Gbgok\no0aVrBjlJ5uNR9vT11JQPRMCAwEAAQ==\n-----END PUBLIC KEY-----\n"
   }
 }

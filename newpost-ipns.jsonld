@@ -1,24 +1,27 @@
 {
   "@context": "https://www.w3.org/ns/activitystreams",
+  "id": "ipns://staticpub.mauve.moe/newpost-ipns.jsonld",
   "url": [{
     "type": "Link",
     "rel": "alternate",
     "mediaType": "application/ld+json; profile=\"https://www.w3.org/ns/activitystreams\"",
-    "href": "ipns://staticpub.mauve.moe/newpost-ipns.jsonld"
+    "href": "https://staticpub.mauve.moe/newpost.jsonld"
   }],
-  "id": "https://staticpub.mauve.moe/newpost.jsonld",
   "type": "Note",
   "summary": null,
   "published": "2023-09-07T17:29:45Z",
-  "url": "https://staticpub.mauve.moe/newpost",
-  "attributedTo": "https://staticpub.mauve.moe/about.jsonld",
+  "url": "ipns://staticpub.mauve.moe/newpost",
+  "attributedTo": "ipns://staticpub.mauve.moe/about-ipns.jsonld",
   "to": [
       "https://www.w3.org/ns/activitystreams#Public"
   ],
   "cc": [],
   "sensitive": false,
+  "atomUri": "ipns://staticpub.mauve.moe/newpost",
+  "inReplyToAtomUri": null,
+  "conversation": "tag:staticpub.mauve.moe,2023-06-29:objectId=294618:objectType=Conversation",
   "content": "This is a new post that's getting sent right into your inbox. Can you see it?",
   "attachment": [],
   "tag": [],
-  "replies":  "https://staticpub.mauve.moe/newpost-replies.jsonld"
+  "replies":  "ipns://staticpub.mauve.moe/newpost-replies-ipns.jsonld"
 }
