@@ -12,6 +12,11 @@
       "rel": "self",
       "type": "application/activity+json",
       "href": "https://staticpub.mauve.moe/about.jsonld"
+    },
+    {
+      "rel": "self",
+      "type": "application/activity+json",
+      "href": "ipns://staticpub.mauve.moe/about-ipns.jsonld"
     }
   ]
 }
