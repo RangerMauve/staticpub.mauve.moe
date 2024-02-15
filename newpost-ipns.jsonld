@@ -16,10 +16,7 @@
       "https://www.w3.org/ns/activitystreams#Public"
   ],
   "cc": [],
-  "sensitive": false,
-  "atomUri": "ipns://staticpub.mauve.moe/newpost",
-  "inReplyToAtomUri": null,
-  "conversation": "tag:staticpub.mauve.moe,2023-06-29:objectId=294618:objectType=Conversation",
+  "sensitive": true,
   "content": "This is a new post that's getting sent right into your inbox. Can you see it?",
   "attachment": [],
   "tag": [],

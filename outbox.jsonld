@@ -1,6 +1,12 @@
 {
 "@context": "https://www.w3.org/ns/activitystreams",
-"id": "https://staticpub.mauve.moe/index.json",
+"id": "https://staticpub.mauve.moe/outbox.json",
+"url": [{
+  "type": "Link",
+  "rel": "alternate",
+  "mediaType": "application/ld+json; profile=\"https://www.w3.org/ns/activitystreams\"",
+  "href": "ipns://staticpub.mauve.moe/outbox-ipns.jsonld"
+}],
 "type": "OrderedCollection",
 "totalItems": 2,
 "orderedItems": [
