@@ -1,11 +1,11 @@
 {
 "@context": "https://www.w3.org/ns/activitystreams",
-"id": "https://staticpub.mauve.moe/outbox.json",
+"id": "ipns://staticpub.mauve.moe/outbox-ipns.json",
 "url": [{
   "type": "Link",
   "rel": "alternate",
   "mediaType": "application/ld+json; profile=\"https://www.w3.org/ns/activitystreams\"",
-  "href": "ipns://staticpub.mauve.moe/outbox-ipns.jsonld"
+  "href": "ipns://staticpub.mauve.moe/outbox.jsonld"
 }],
 "type": "OrderedCollection",
 "totalItems": 2,
@@ -13,28 +13,28 @@
 	{
 		"@context": "https://www.w3.org/ns/activitystreams",
 		"type": "Create",
-		"actor": "https://staticpub.mauve.moe/about.jsonld",
+		"actor": "ipns://staticpub.mauve.moe/about-ipns.jsonld",
 		"published": "2023-09-07T17:29:45Z",
 		"to": [
 			"https://www.w3.org/ns/activitystreams#Public"
 		],
 		"cc": [
-			"https://staticpub.mauve.moe/followers.jsonld"
+			"ipns://staticpub.mauve.moe/followers-ipns.jsonld"
 		],
-		"object": "https://staticpub.mauve.moe/newpost.jsonld"
+		"object": "ipns://staticpub.mauve.moe/newpost-ipns.jsonld"
 	},
 	{
 		"@context": "https://www.w3.org/ns/activitystreams",
 		"type": "Create",
-		"actor": "https://staticpub.mauve.moe/about.jsonld",
+		"actor": "ipns://staticpub.mauve.moe/about-ipns.jsonld",
 		"published": "2023-06-29T17:29:45Z",
 		"to": [
 			"https://www.w3.org/ns/activitystreams#Public"
 		],
 		"cc": [
-			"https://staticpub.mauve.moe/followers.jsonld"
+			"ipns://staticpub.mauve.moe/followers-ipns.jsonld"
 		],
-		"object": "https://staticpub.mauve.moe/helloworld.jsonld"
+		"object": "ipns://staticpub.mauve.moe/helloworld-ipns.jsonld"
 	}
 ]
 }
